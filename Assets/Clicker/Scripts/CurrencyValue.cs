@@ -5,12 +5,12 @@ using TMPro;
 
 public class CurrencyValue : MonoBehaviour
 {
-    float currency = 0;
+    public float currency = 0;
     private TextMeshProUGUI display;
-
+    public float perClick = 1;
     public void OnClick()
     {
-        currency += 1;
+        currency += perClick;
     }
 
 
